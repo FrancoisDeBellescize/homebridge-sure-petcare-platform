@@ -1,5 +1,5 @@
 var Accessory, Service, Characteristic, UUIDGen;
-var SurePetcareApi = require("sure_petcare").SurePetcareApi;
+var SurePetcareApi = require("@francoisdebellescize/sure_petcare").SurePetcareApi;
 
 var SurePetcarePetFlap = require("./accessories/SurePetcarePetFlap");
 var SurePetcareOccupancySensor = require("./accessories/SurePetcareOccupancySensor");
