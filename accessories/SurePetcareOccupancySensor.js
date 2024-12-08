@@ -47,7 +47,7 @@ SurePetcareOccupancySensor.prototype._getOccupancy = function(callback) {
 
         for(var i in pets) {
             var pet = pets[i];
-            if(pet.id == self.sensor.id) {
+            if(pet.id == self.sensor.id && pet.position) {
                 //Pet position is 1 for inside and 2 for outside.
                 //This needs to be 0 for no occupancy and 1 for occupancy
                 var where;
